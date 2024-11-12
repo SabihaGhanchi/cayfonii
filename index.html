@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/09f84ebc87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg" style="height: 70px; background-color: rgb(1, 1, 57);;">
+    <div class="container" style="position: relative;">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="" style="width: 100px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mainnav" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto d-flex justify-content-between align-items-center"
+          style=" font-weight: bold; width: 60%;">
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">Home <i class="bi bi-chevron-down fw-bold mt-2 fs-7 text-light"> </i> </a>
+          <div class="popup d-flex flex-column justify-content-evenly p-3">
+            
+            <span>Home V1</span>
+            <span>Home V2</span>
+            <span>Home V3</span>
+            <span>Card Carousel</span>
+            <span>Zigzag carousel</span>
+            <span>Coverflow Carousel</span>
+            <span>items Carousel</span>
+            <span>3D Carousel</span>
+
+          </div>  
+
+          
+          </li>
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">Explore <i class="bi bi-chevron-down fw-bold mt-3 fs-8 text-light"> </i> </a>
+          
+            <div class="popup-2 d-flex flex-column justify-content-evenly p-3">
+            
+              <span>NFTs</span>
+              <span>Blog List</span>
+              <span>Blog Details</span>
+              <span>Vision & Mission</span>
+              <span>Help Center</span>
+              <span>Participants & Assents</span>
+              <span>Advisors & Backers</span>
+              <span>Partners & investors</span>
+  
+            </div> 
+          </li>
+
+
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">RoadMap</a></li>
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">Team</a></li>
+          <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#">Contact</a></li>
+        </ul>
+
+        <i class=" me-5 text-light fa-solid fa-magnifying-glass"></i>
+        <button class="py-2 px-3 rounded" style="border: none;">Now more</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- section-one -->
+  <div class="container-fluid" style="background-color: rgb(1, 1, 57);" 
+  data-aos="fade-in"
+  data-aos-offset="200"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in-out"
+  data-aos-mirror="true"
+  data-aos-once="false"
+  data-aos-anchor-placement="top-center"
+
+  
+  >
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-6 d-flex" style="height: 600px;">
+          <!-- left -->
+          <div class="left-text text-light center align-items-start flex-column" style="position: relative;">
+            <h1 style="font-size: 50px; font-weight: bold;">Collect Next <br>
+              Generattion <b>NFTs</b> <br>
+              Today </h1>
+
+            <p class="mt-4">Cyfonii is the premier marketplace for nifties, Which are digital items you can truly own
+              for yourself</p>
+
+            <button class="mt-4 py-2 px-4 rounded" style="border: none;">Get Connected</button>
+
+            <div class="line-image" style="position: absolute; left: 200px; top: 180px;">
+              <img src="line-01.png" alt="">
+            </div>
+
+            <div class="data vs mt-5">
+              <h1 class="fw-bold" style="font-size: 15px;">We are Monteno NFT</h1>
+              <p style="font-size: 15px; color: gray;">We accept: </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- right -->
+        <div class="col-md-6 center">
+
+          <img src="image-1.png" alt="" class="col-12">
+
+          <!-- box-1 -->
+          <div class="box-1 bg-light z-index-1111111 position-absolute center"
+            style="width: 200px; height: 80px; border-radius: 25px;">
+
+            <!-- left -->
+            <div class="left d-flex me-3">
+              <img src="animi.png" alt="" style="width: 50px; border-radius: 100%;">
+            </div>
+
+            <!-- right -->
+            <div class="right center align-items-start flex-column">
+              <h1 class="fw-bold mt-4" style="font-size: 15px;">Leslie Alexander</h1>
+              <p>@Leslie754</p>
+            </div>
+
+          </div>
+
+
+          <!-- box-2 -->
+          <div class="box-2 bg-light z-index-1111111 position-absolute center"
+            style="width: 200px; height: 80px; border-radius: 25px;">
+
+            <!-- left -->
+            <div class="left d-flex me-3">
+              <img src="icon.png" alt="" style="width: 50px; border-radius: 100%;">
+            </div>
+
+            <!-- right -->
+            <div class="right center align-items-start flex-column">
+              <h1 class="fw-bold mt-4" style="font-size: 15px;">Current Bid</h1>
+              <p>2.26 ETH</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- section-tow -->
+  <div class="container-fluid" style=" background-color: rgb(1, 1, 57);">
+    <div class="container"
+
+    data-aos="zoom-in"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    
+    >
+      <div class="row">
+        <!-- col-6 -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center" style=" height: 600px;">
+          <img src="image-2.png" alt="" class="col-12">
+        </div>
+
+
+        <!-- col-6 -->
+        <div class="col-md-6 d-flex">
+          <div class="text-2 d-flex justify-content-center align-items-start flex-column">
+
+            <button class="px-3 text-light"
+              style=" border-radius: 10px; border: 2px solid gray; background: none;">About Us</button>
+
+            <h1 class="text-light fw-bold mt-3">Hight Quality NFT <br>
+              Collections </h1>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores reprehenderit.?
+            </p>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, recusandae maiores!
+              Vitae iusto velit beatae ipsum, ea, sapiente architecto tempore saepe molestiae mollitia provident cumque
+              ducimus illo officiis officia corrupti! Lorem ipsum dolor sit amet consectetur adipisicing ,?</p>
+
+
+            <button class="mt-4 py-2 px-4 rounded" style="border: none;">Get Connected</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-three -->
+  <div class="container-fluid p-5" style="background-color: rgb(1, 1, 57);">
+    <div class="container ">
+
+      <!-- text-3 -->
+      <div class="text-three d-flex justify-content-center align-items-center flex-column">
+
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Our
+          Speciality</button>
+        <h1 class="text-center text-light fw-bold mt-3" style="font-size: 45px;">Complete Solutions for Your <br> NFT
+        </h1>
+        <p class="text-center text-light mt-3" style="font-size: 15px;">Cyfonii is the premier marketplace for nifties,
+          Which are digital items You can <br>
+          truly own for yourself </p>
+      </div>
+
+      <!-- row -->
+      <div class="row mt-3 d-flex main-div p-5">
+
+        <!-- col-md-3 -->
+        <div class="col-md-3 sec-three-main-card d-flex justify-content-center align-items-center"
+          style="height: 200px;">
+
+          <div class="card-1 text-light d-flex justify-content-center align-items-center flex-column"
+            style=" border-radius: 15px; background-color: rgb(10, 10, 74); width: 300px; height: 200px;">
+            <img src="icon.png" alt="" style="margin-top: -50px;">
+            <h1 class="fw-bold text-center mt-3" style="font-size: 20px;">Huge Collection</h1>
+            <p class="text-center" style="font-size: 10px;">officia dese runt mollit anim id <br>
+              est labo met, consectetur adipis</p>
+            <h1 class="text-center">01</h1>
+          </div>
+
+        </div>
+
+        <!-- col-md-3 -->
+        <div class="col-md-3 sec-three-main-card d-flex justify-content-center align-items-center"
+          style="height: 200px;">
+
+          <div class="card-1 text-light d-flex justify-content-center align-items-center flex-column"
+            style=" border-radius: 15px; background-color: rgb(10, 10, 74); width: 300px; height: 200px;">
+            <img src="icon.png" alt="" style="margin-top: -50px;">
+            <h1 class="fw-bold text-center mt-3" style="font-size: 20px;">High Quality</h1>
+            <p class="text-center" style="font-size: 10px;">officia dese runt mollit anim id <br>
+              est labo met, consectetur adipis</p>
+            <h1 class="text-center">02</h1>
+          </div>
+
+        </div>
+
+
+        <!-- col-md-3 -->
+        <div class="col-md-3 sec-three-main-card d-flex justify-content-center align-items-center"
+          style="height: 200px;">
+
+          <div class="card-1 text-light d-flex justify-content-center align-items-center flex-column"
+            style=" border-radius: 15px; background-color: rgb(10, 10, 74); width: 300px; height: 200px;">
+            <img src="icon.png" alt="" style="margin-top: -50px;">
+            <h1 class="fw-bold text-center mt-3" style="font-size: 20px;">Top Resource</h1>
+            <p class="text-center" style="font-size: 10px;">officia dese runt mollit anim id <br>
+              est labo met, consectetur adipis</p>
+            <h1 class="text-center">03</h1>
+          </div>
+
+        </div>
+
+
+        <!-- col-md-3 -->
+        <div class="col-md-3 sec-three-main-card d-flex justify-content-center align-items-center"
+          style="height: 200px;">
+
+          <div class="card-1 text-light d-flex justify-content-center align-items-center flex-column"
+            style=" border-radius: 15px; background-color: rgb(10, 10, 74); width: 300px; height: 200px;">
+            <img src="icon.png" alt="" style="margin-top: -50px;">
+            <h1 class="fw-bold text-center mt-3" style="font-size: 20px;">Big Community</h1>
+            <p class="text-center" style="font-size: 10px;">officia dese runt mollit anim id <br>
+              est labo met, consectetur adipis</p>
+            <h1 class="text-center">04</h1>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-four -->
+  <div class="container-fluid p-5" style=" background-color: rgb(1, 1, 57);">
+    
+    
+    <div class="container" 
+ 
+    
+    >
+      <div class="text-4 d-flex justify-content-center align-items-center flex-column">
+
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Join NFT
+          Portfollo</button>
+        <h1 class="text-light fw-bold mt-3">Become a Cyfonii Player Now</h1>
+      </div>
+
+      <!-- row -->
+      <div class="row mt-3">
+
+
+        <div class="col-md-6 gap-3 d-flex justify-content-center align-items-center flex-column"
+        data-aos="slide-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <div class="crad p-4 d-flex justify-content-center"
+            style="height: 130px; border-radius: 10px; background-color:  rgb(10, 10, 74);">
+            <div class="left ms-3 px-3" style=" border-right: 2px solid gray;">
+              <img src="icon-1.svg" alt="" style="width: 30px;" class="mt-2">
+            </div>
+
+            <div class="right ms-3 d-flex justify-content-center align-items-start flex-column">
+              <h1 class="text-light fw-bold" style="font-size: 20px;">Connect Your Wallet</h1>
+              <p class="text-light" style="font-size: 10px;">Suspendisse tristiq neque a lorem placerat pharetra. Class
+                aptent sociosqu ad litora torquent per conubia nostra. perinceptos himenaeos</p>
+            </div>
+          </div>
+
+          <div class="crad p-4 d-flex justify-content-center"
+            style="height: 130px; border-radius: 10px; background-color:  rgb(10, 10, 74);">
+            <div class="left ms-3 px-3" style="border-right: 2px solid gray;">
+              <img src="icon-2.svg" alt="" style="width: 30px;" class="mt-2">
+            </div>
+
+            <div class="right ms-3 d-flex justify-content-center align-items-start flex-column">
+              <h1 class="text-light fw-bold" style="font-size: 20px;">Buy Your Wallet</h1>
+              <p class="text-light" style="font-size: 10px;">Suspendisse tristiq neque a lorem placerat pharetra. Class
+                aptent sociosqu ad litora torquent per conubia nostra. perinceptos himenaeos</p>
+            </div>
+          </div>
+
+          <div class="crad p-4 d-flex justify-content-center"
+            style="height: 130px; border-radius: 10px; background-color:  rgb(10, 10, 74);">
+            <div class="left ms-3 px-3" style="border-right: 2px solid gray;">
+              <img src="icon-3.svg" alt="" style="width: 30px;" class="mt-2">
+            </div>
+
+            <div class="right ms-3 d-flex justify-content-center align-items-start flex-column">
+              <h1 class="text-light fw-bold" style="font-size: 20px;">Create Collection</h1>
+              <p class="text-light" style="font-size: 10px;">Suspendisse tristiq neque a lorem placerat pharetra. Class
+                aptent sociosqu ad litora torquent per conubia nostra. perinceptos himenaeos</p>
+            </div>
+          </div>
+
+
+          <div class="crad p-4 d-flex justify-content-center"
+            style="height: 130px; border-radius: 10px; background-color:  rgb(10, 10, 74);">
+            <div class="left ms-3 px-3" style="border-right: 2px solid gray;">
+              <img src="icon-4.svg" alt="" style="width: 30px;" class="mt-2">
+            </div>
+
+            <div class="right ms-3 d-flex justify-content-center align-items-start flex-column">
+              <h1 class="text-light fw-bold" style="font-size: 20px;">Sell Your NFT</h1>
+              <p class="text-light" style="font-size: 10px;">Suspendisse tristiq neque a lorem placerat pharetra. Class
+                aptent sociosqu ad litora torquent per conubia nostra. perinceptos himenaeos</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-md-6 -->
+        <div 
+        class="col-md-6 d-flex justify-content-center align-items-center" 
+        data-aos="slide-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+
+
+        >
+          <img src="portfolio.png" alt="" class="col-12">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-five -->
+
+  <div class="container-fluid p-5" style="background-color: rgb(1, 1, 57);">
+    <div class="container">
+      <div class="text-5 d-flex justify-content-center align-items-center flex-column">
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Our
+          Speciality</button>
+        <h1 class="text-light fw-bold mt-3" style="font-size: 40px;">OUR COLLECTION</h1>
+      </div>
+
+
+      <!-- row -->
+      <div class="row p-3 d-flex">
+
+        <!-- col-1 -->
+        <div class="col-md-4  center " style="height: 350px;">
+          <div class=" image-box center flex-column rounded "
+            style="height: 95%; width: 98%; background-color: rgba(197, 174, 174, 0.206);">
+
+            <img src="project-01.png" alt="" style="height: 300px; width: 90%; object-fit: cover; border-radius: 5px;">
+
+            <div class="button-div center rounded"
+              style=" width: 290px; height: 50px; background-color: rgba(168, 168, 168, 0.579); ">
+              <button class="fw-bold" style="background: none; border: none;">3D Digital Artwork</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- col-2 -->
+
+        <div class="col-md-4  center " style="height: 350px;">
+          <div class=" image-box center flex-column rounded "
+            style="height: 95%; width: 98%; background-color: rgba(197, 174, 174, 0.206);">
+
+            <img src="pro.png" alt="" style="height: 300px; width: 90%; object-fit: cover; border-radius: 5px;">
+
+            <div class="button-div center rounded"
+              style=" width: 290px; height: 50px; background-color: rgba(168, 168, 168, 0.579); ">
+              <button class="fw-bold" style="background: none; border: none;">King of Pirates</button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- col-3 -->
+        <div class="col-md-4  center " style="height: 350px;">
+          <div class=" image-box center flex-column rounded "
+            style="height: 95%; width: 98%; background-color: rgba(197, 174, 174, 0.206);">
+
+            <img src="project-03.png" alt="" style="height: 300px; width: 90%; object-fit: cover; border-radius: 5px;">
+
+            <div class="button-div center rounded"
+              style=" width: 290px; height: 50px; background-color: rgba(168, 168, 168, 0.579); ">
+              <button class="fw-bold" style="background: none; border: none;">Pomeranian Doga</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-six -->
+  <div class="container-fluid six-section p-5" style=" background-color: rgb(1, 1, 57);">
+    <div class="container">
+      <div class="text-six d-flex justify-content-center align-items-center flex-column">
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Road Map</button>
+        <h1 class="text-light fw-bold mt-3" style="font-size: 50px;">The Journey of Cyfonii NFT</h1>
+      </div>
+
+      <!-- row -->
+      <div class="row mt-5 main-section">
+        <div class="col-md-6 left-section gap-5 d-flex flex-column justify-content-center align-items-centerss">
+          <!-- box -->
+          <div class="box p-4 d-flex justify-content-center align-items-start flex-column"
+            style="border: 1px solid gray; border-radius: 15px; height: 160px; background-color: rgba(114, 114, 117, 0.158);">
+            <button class="px-3 fw-bold z-index-1111111"
+              style=" margin-top: -10px;border: 1px solid gray; background-color: rgb(1, 1, 57); border-radius: 15px; color: slateblue;">February01,2022</button>
+            <h1 class="text-light fw-bold mt-4" style="font-size: 20px; border-bottom: 5px solid slateblue;">Idea
+              Generation</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque
+              sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+          </div>
+
+          <!-- box -->
+          <div class="box p-4 d-flex justify-content-center align-items-start flex-column"
+            style="border: 1px solid gray; border-radius: 15px; height: 160px; background-color: rgba(114, 114, 117, 0.158);">
+            <button class="px-3 fw-bold z-index-1111111"
+              style=" margin-top: -10px;border: 1px solid gray; background-color: rgb(1, 1, 57); border-radius: 15px; color: slateblue;">February01,2022</button>
+            <h1 class="text-light fw-bold mt-4" style="font-size: 20px; border-bottom: 5px solid slateblue;">Initial
+              Release</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque
+              sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+          </div>
+
+          <!-- box -->
+          <div class="box p-4 d-flex justify-content-center align-items-start flex-column"
+            style="border: 1px solid gray; border-radius: 15px; height: 160px; background-color: rgba(114, 114, 117, 0.158);">
+            <button class="px-3 fw-bold z-index-1111111"
+              style=" margin-top: -10px;border: 1px solid gray; background-color: rgb(1, 1, 57); border-radius: 15px; color: slateblue;">February01,2022</button>
+            <h1 class="text-light fw-bold mt-4" style="font-size: 20px; border-bottom: 5px solid slateblue;">Design &
+              Development</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque
+              sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+          </div>
+        </div>
+
+        <!-- col-md-6 -->
+        <div class="col-md-6 right-section  gap-5 d-flex justify-content-center align-items-center flex-column">
+
+          <!-- box -->
+          <div class="box p-4 d-flex justify-content-center align-items-start flex-column"
+            style="border: 1px solid gray; border-radius: 15px; height: 160px; background-color: rgba(114, 114, 117, 0.158);">
+            <button class="px-3 fw-bold z-index-1111111"
+              style=" margin-top: -10px;border: 1px solid gray; background-color: rgb(1, 1, 57); border-radius: 15px; color: slateblue;">February01,2022</button>
+            <h1 class="text-light fw-bold mt-4" style="font-size: 20px; border-bottom: 5px solid slateblue;">Design
+              Development</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque
+              sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+          </div>
+
+          <!-- box -->
+          <div class="box p-4 d-flex justify-content-center align-items-start flex-column"
+            style="border: 1px solid gray; border-radius: 15px; height: 160px; background-color: rgba(114, 114, 117, 0.158);">
+            <button class="px-3 fw-bold z-index-1111111"
+              style=" margin-top: -10px;border: 1px solid gray; background-color: rgb(1, 1, 57); border-radius: 15px; color: slateblue;">February01,2022</button>
+            <h1 class="text-light fw-bold mt-4" style="font-size: 20px; border-bottom: 5px solid slateblue;">Result &
+              Report</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque
+              sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class=" d-flex justify-content-center align-items-center">
+        <button class="px-3 py-1 mt-5 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">View full Road
+          Map</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-seven -->
+
+  <div class="container-fluid p-5 text-light" style=" background-color: rgb(1, 1, 57); overflow: hidden;">
+    <div class="container">
+
+      <!-- seven-sec-text -->
+      <div class="seven-sec-text center  flex-column">
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background-color: rgba(120, 120, 120, 0.301); border-radius: 15px; color: slateblue;">Team
+          Member</button>
+        <h1 class="fw-bold" style="font-size: 60px;">Our Amazing Team Members</h1>
+      </div>
+
+      <!-- row -->
+      <div class="row mt-3">
+
+        <!-- Card Item 1  -->
+        <div 
+        class="col-md-3 center flex-column" 
+        style="height: 500px;"
+
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+
+          <div class="image-div center"
+            style=" border: 1px solid gray; height: 50%; width: 98%; border-radius: 10px; background-color: rgba(217, 192, 192, 0.42);">
+            <img src="ss-one.png" alt="" style="width: 90%; height: 90%; border-radius: 10px; object-fit: cover;">
+          </div>
+          <h1 class="fw-bold fs-3 mt-3">Jenny Wilson</h1>
+          <span>Founder & CEO</span>
+
+
+          <!-- icon-div -->
+          <div class="icon-div mt-3 d-flex justify-content-between" style=" font-size: 20px; width: 30%;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+
+        </div>
+
+        <!-- Card Item 2 -->
+        <div class="col-md-3 center flex-column" style="height: 500px;"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <div class="image-div center"
+            style=" border: 1px solid gray; height: 50%; width: 98%; border-radius: 10px; background-color: rgba(217, 192, 192, 0.42);">
+            <img src="ss-two.png" alt="" style="width: 90%; height: 90%; border-radius: 10px; object-fit: cover;">
+          </div>
+          <h1 class="fw-bold fs-3 mt-3">Devon Lane</h1>
+          <span>Designer</span>
+
+
+          <!-- icon-div -->
+          <div class="icon-div mt-3 d-flex justify-content-between" style=" font-size: 20px; width: 30%;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+        </div>
+
+        <!-- Card Item 3 -->
+        <div class="col-md-3 center flex-column" style="height: 500px;"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="500"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <div class="image-div center center"
+            style=" border: 1px solid gray; height: 50%; width: 98%; border-radius: 10px; background-color: rgba(217, 192, 192, 0.42);">
+            <img src="ss-three.png" alt="" style="width: 90%; height: 90%; border-radius: 10px; object-fit: cover;">
+          </div>
+          <h1 class="fw-bold fs-3 mt-3">Jane Cooper</h1>
+          <span>Founder & CEO</span>
+
+          <!-- icon-div -->
+          <div class="icon-div mt-3 d-flex justify-content-between" style=" font-size: 20px; width: 30%;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+        </div>
+
+        <!-- Card Item 4 -->
+        <div class="col-md-3 center flex-column" style="height: 500px;"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="700"
+        data-aos-duration="1000"
+        data-aos-easing="ease-out-cubic"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <div class="image-div center center"
+            style=" border: 1px solid gray; height: 50%; width: 98%; border-radius: 10px; background-color: rgba(217, 192, 192, 0.42);">
+            <img src="ss-four.png" alt="" style="width: 90%; height: 90%; border-radius: 10px; object-fit: cover;">
+          </div>
+          <h1 class="fw-bold fs-3 mt-3">Courtney Henry</h1>
+          <span>Designer</span>
+
+          <!-- icon-div -->
+          <div class="icon-div mt-3 d-flex justify-content-between" style=" font-size: 20px; width: 30%;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+      <div class="brands center flex-column " style="background-color: rgb(1, 1, 57); height: 300px;">
+        <button class="fw-bold p-2 rounded text-light" style="background: none; border: 1px solid gray;">We Are
+          Partnered With Top brands</button>
+
+        <div class="row w-100 h-50">
+          <div class="brands images center justify-content-between  fw-bold col-md-6">
+            <img src="brand-01.png" alt="">
+            <img src="brand-02.png" alt="">
+            <img src="brand-03.png" alt="" class="me-3">
+          </div>
+          <div class="brands-images-2 col-md-6 center justify-content-between">
+            <img src="brand-04.png" alt="" class="ms-3">
+            <img src="brand-05.png" alt="">
+            <img src="brand-06.png" alt="">
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--section-eight -->
+
+  <div class="container-fluid text-light p-5" style="background-color: rgb(1, 1, 57); overflow: hidden;">
+    <div class="container">
+      <div class="sec-eight-text center flex-column">
+
+        <button class="px-3 py-1 fw-bold"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Testimonials</button>
+        <h1 class="fw-bold mt-3" style="font-size: 60px;">What People Say</h1>
+        <img src="quote.png" alt="" class="mt-3 fw-bold">
+
+        <h3 class="fw-bold fs-2 text-center mt-3">Curabitur eu est quam feugiat tristique non vel erat. Class aptent
+          taciti
+          Socoiosqu ad litora torquent per conubia nostra, per inceptois himemeos. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. beatae voluptatem ipsam!</h3>
+
+        <div class="sm-box center flex-column">
+          <img src="ss-five.jpg" alt="" class=" mt-3" style="height: 100px; border-radius: 50%;">
+          <h1 class="fw-bold fs-5 mt-3">jekob jones</h1>
+          <span class="fs-5">chief product officer</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-nine -->
+
+  <div class="container-fluid " style="background-color:  rgb(1, 1, 57);"
+  
+  >
+    <div class="container">
+      <div class="text-nine d-flex justify-content-center align-items-center flex-column">
+
+        <button class="px-3 py-1 fw-bold mt-4"
+          style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">FAQs</button>
+
+        <h1 class="text-light fw-bold mt-3" style="font-size: 40px;">Frequently Aksed Questions</h1>
+        <p class="text-center text-light mt-3">Below is a list of frequently asked questions and answers from partners
+          and 3D artist <br>
+
+          Please check this FAQ first before contacting us.</p>
+
+        <!-- button-div-nine -->
+        <div class="button-div-nine d-flex gap-3">
+          <button class="px-3 py-2 fw-bold mt-4 text-light rounded"
+            style="border: none; background: rgb(0, 7, 74); color: slateblue;">Cryptocurrency</button>
+          <button class="px-3 py-2 fw-bold mt-4 text-light rounded"
+            style="border: none; background: rgb(0, 7, 74); color: slateblue;">NFT Token</button>
+          <button class="px-3 py-2 fw-bold mt-4 text-light rounded"
+            style="border: none; background: rgb(0, 7, 74); color: slateblue;">Collection</button>
+          <button class="px-3 py-2 fw-bold mt-4 text-light rounded"
+            style="border: none; background: rgb(0, 7, 74); color: slateblue;">Crypto Trading</button>
+        </div>
+
+      </div>
+
+
+      <!-- row -->
+      <div class="row p-3">
+        <div class="col-md-6 gap-4 d-flex justify-content-center align-items-center flex-column" style="height: 400px;">
+          <div class="card-nine p-3 d-flex justify-content-between align-items-center " style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light fw-bold mt-2" style="font-size: 20px;">When thise music over tum off the light?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex p-3 justify-content-between align-items-start p-2" style=" background-color: rgb(5, 5, 73); border-radius: 15px; width: 550px; height: 50px;">
+            <h1 class="text-light fw-bold" style="font-size: 20px;">What is the way NFT?</h1>
+            <i class="fa-solid fa-plus text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex justify-content-between p-2 align-items-start"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light fw-bold mt-2" style="font-size: 20px;">What is the way NFT?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex justify-content-between p-2 align-items-start"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light mt-2 fw-bold" style="font-size: 20px;">What is the way NFT?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 gap-4 d-flex justify-content-center align-items-center flex-column" style="height: 400px;">
+          <div class="card-nine d-flex justify-content-between align-items-start p-2"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light mt-2 fw-bold" style="font-size: 20px;">What is the way NFT?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex justify-content-between align-items-start p-2"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light mt-2 fw-bold" style="font-size: 20px;">When thise music over tum off the light?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex justify-content-between align-items-start p-2"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light fw-bold mt-2" style="font-size: 20px;">When thise music over tum off the light?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+
+          <div class="card-nine d-flex justify-content-between align-items-start p-2"
+            style=" background-color: rgb(5, 5, 73); width: 550px; border-radius: 15px; height: 50px;">
+            <h1 class="text-light fw-bold mt-2" style="font-size: 20px;">When thise music over tum off the light?</h1>
+            <i class="fa-solid fa-plus mt-2 text-light ms-5" style="font-size: 25px;"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- section-ten -->
+  <div class="container-fluid p-5" style="background-color:  rgb(1, 1, 57);">
+    <div class="container">
+      <div class="row">
+
+        <div class="section-ten d-flex justify-content-center align-items-center" style="height: 300px;"
+        data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        >
+          <div class="text-ten d-flex justify-content-between align-items-center" style=" border-radius: 50px; width: 1100px; height: 250px;
+            background: rgb(0,5,255);
+            background: radial-gradient(circle, rgba(0,5,255,1) 0%, rgba(15,3,89,1) 100%);">
+
+          <div class="row w-100 h-100 d-flex align-items-center justify-content-between">
+            <div class="left col-md-6 d-flex ms-5 justify-content-center align-items-start flex-column" style=" height: 200px;">
+              <h1 class="text-light fw-bold" style="font-size: 25px;">Create youe NFT portfolio</h1>
+              <p class="text-light">Get udpated with news, tips & tricks</p>
+
+              <button class="px-3 py-1 fw-bold"
+                style="border: 1px solid grey; background: none; border-radius: 15px; color: slateblue;">Join
+                now</button>
+
+            </div>
+            <div class="right col-md-6 d-flex justify-content-center align-items-center" style="width: 200px; height: 200px;">
+              <img src="create.png" alt="" style="width: 500px;">
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <div class="container-fluid p-5 footer" style="background-color:  rgb(1, 1, 57);">
+    <div class="container">
+      <div class="footer-text d-flex justify-content-center align-items-center flex-column">
+        <h1 class="text-light fw-bold" style="font-size: 60px;">Get Newsletter</h1>
+        <p class="text-light">Get udpated with news, tips & tricks</p>
+        <input type="type" placeholder="Your email" class="px-5 py-2" style="background: none; border: 1px solid gray;">
+
+        <button class="px-4 py-1 fw-bold rounded text-light mt-4"
+          style="border: 1px solid grey; background: none; color: slateblue;">Subscribe</button>
+      </div>
+
+      <!-- row -->
+      <div class="row d-flex">
+        <!-- col-1 -->
+        <div class="col-md-4 d-flex justify-content-center align-items-center" style="height: 200px;">
+          <img src="logo.png" alt="" class="fw-bold">
+        </div>
+
+        <!-- col-2 -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center flex-column">
+          <div class="eleven-text mt-3 d-flex text-light w-100 justify-content-between fw-bold center">
+            <span>Home</span>
+            <span>Explore</span>
+            <span>About</span>
+            <span>Collection</span>
+            <span>Team</span>
+            <span>Contact</span>
+          </div>
+
+          <p class="mt-1" style="color: gray;">Copyright @ 2022, Cyfonii. Designed by Themesflat</p>
+        </div>
+
+        <!-- col-3 -->
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="footer-icon text-light d-flex justify-content-evenly" style=" font-size: 25px; width: 200px;">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-invision"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- AOS JS CDN -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- AOS JS SCRIPT -->
+  <script>
+    AOS.init();
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
